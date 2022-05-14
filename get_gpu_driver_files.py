@@ -124,7 +124,7 @@ def get_gpu_hardware_id(gpu_infos):
     return select_gpu(gpu_infos)
 
 
-# Select the drive file save path or save the script folder
+# Select the drive file save path or save to the script folder
 def select_path():
     while True:
         try:
