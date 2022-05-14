@@ -97,7 +97,7 @@ def get_gpu_infos():
     return gpu_infos
 
 
-# Use user input to select gpu and check if valid and ask user to confirm return Hardware IDs at first element
+# Use user input to select gpu and check if valid and ask user to confirm then return first element in Hardware IDs
 def get_gpu_hardware_id(gpu_infos):
     # print gpu names with index
     def print_gpu_name_list(gpu_infos):
